@@ -34,7 +34,6 @@ This is considered as the main file which contains the rating data. However, It 
  **Q.I.8:** Extract the source name from the url given in the `source` column
 
 
-
 Besides, there is a noticeable tidiness issue (**T.I.**) which also I solved programmatically:
 
 **T.I.1:** Create one column for the dog stage `dog_stage` instead of the 4 excited columns
@@ -42,7 +41,7 @@ Besides, there is a noticeable tidiness issue (**T.I.**) which also I solved pro
 #### **File 2: `image-predictions.tsv` dataset**
 The second file is about the algorithms used to predict the dog's breed in the specified tweet using the image-recognition techniques. Therefore, there are 3 used algorithms that gave 3 different results with confidence factor for each. As a result, I worked on extracting the best breed prediction (with the highest confidence factor) for each tweet id.  
 
-![image.png](attachment:image.png)
+![alt text](https://github.com/ZaidGhazal/Project_4_DataWrangling/blob/master/text_json.png?raw=true)
 
 **T.I.2:**  Create one column that represents the `breed` value instead of the used method
 
@@ -53,4 +52,4 @@ The last file is a text file that contains information about each tweet. The fil
 
 ### Conclusion
 Finally, I joined the `favorite_count`, `retweet_count`, and `breed` columns into the cleaned `twitter-archive` dataset and saved the resultant dataset as `twitter_archive_master.csv`. Also, I accomplished a group of investigations and insights on the final dataset (`twitter_archive_master.csv`) that can be found in the `act_report.html ` file.
-![image.png](attachment:image.png)
+![alt text](https://github.com/ZaidGhazal/Project_4_DataWrangling/blob/master/tweet_archieve_master.png?raw=true)
