@@ -39,7 +39,7 @@ T.I.1: Create one column for the dog stage dog_stage instead of the 4 excited co
 File 2: image-predictions.tsv dataset
 The second file is about the algorithms used to predict the dog's breed in the specified tweet using the image-recognition techniques. Therefore, there are 3 used algorithms that gave 3 different results with confidence factor for each. As a result, I worked on extracting the best breed prediction (with the highest confidence factor) for each tweet id.
 
-image.png
+
 
 T.I.2: Create one column that represents the breed value instead of the used method
 
@@ -47,4 +47,5 @@ File 3: tweet_json.txt
 The last file is a text file that contains information about each tweet. The file's data is collected using tweepy library to query the Twitter's API. From this file, I will get the like(s) count (favorite_count) and the retweet(s) count (retweet_count) for each tweet id by constructing a dataFrame using Pandas and NumPy.image.png
 
 Conclusion
-Finally, I joined the favorite_count, retweet_count, and breed columns into the cleaned twitter-archive dataset and saved the resultant dataset as twitter_archive_master.csv. Also, I accomplished a group of investigations and insights on the final dataset (twitter_archive_master.csv) that can be found in the act_report.html file.image.png
+Finally, I joined the favorite_count, retweet_count, and breed columns into the cleaned twitter-archive dataset and saved the resultant dataset as twitter_archive_master.csv. Also, I accomplished a group of investigations and insights on the final dataset (twitter_archive_master.csv) that can be found in the act_report.html file.
+
